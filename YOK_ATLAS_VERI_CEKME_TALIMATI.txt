@@ -1,0 +1,41 @@
+
+YÖK ATLAS VERİ ÇEKME TALİMATI
+=============================
+
+YÖK Atlas web sitesi otomatik veri çekme işlemlerini engellediği için, verileri "Yarı-Otomatik" yöntemle almamız gerekmektedir.
+Bu işlemi yeni bilgisayarınızda şu şekilde yapabilirsiniz:
+
+HAZIRLIK:
+---------
+1. Masaüstündeki "OmniPDR" klasörüne gidin.
+2. "data" klasörüne girin.
+3. "yokatlas_html" adında bir klasör olduğunu doğrulayın (yoksa oluşturun).
+
+ADIM 1: VERİLERİ KAYDETME
+-------------------------
+Aşağıdaki 4 işlemi sırayla yapın:
+
+1. Tarayıcınızda şu linki açın (SAYISAL): https://yokatlas.yok.gov.tr/tercih-sihirbazi-t4.php?p=say
+2. Klavyeden F12 tuşuna basın (Geliştirici Paneli açılır).
+3. "Console" (Konsol) sekmesine tıklayın.
+4. Aşağıdaki kodu yapıştırıp ENTER'a basın:
+   $('#mydata').DataTable().page.len(-1).draw();
+
+5. Sayfa biraz donabilir, bekleyin. Tablodaki TÜM satırlar tek sayfada listelenecektir.
+6. Sayfada boş bir yere sağ tıklayın -> "Farklı Kaydet" (Save As).
+7. Kayıt Türü: "Web Sayfası, Yalnızca HTML" (veya "Tamamı").
+8. Dosya Adı: "say" (veya "sayisal").
+9. Kayıt Yeri: OmniPDR > data > yokatlas_html klasörü.
+
+* Bu işlemi EA, SÖZ ve DİL için de tekrarlayın:
+  - EA: https://yokatlas.yok.gov.tr/tercih-sihirbazi-t4.php?p=ea
+  - SÖZ: https://yokatlas.yok.gov.tr/tercih-sihirbazi-t4.php?p=soz
+  - DİL: https://yokatlas.yok.gov.tr/tercih-sihirbazi-t4.php?p=dil
+
+ADIM 2: VERİLERİ İŞLEME
+-----------------------
+Dosyaları kaydettikten sonra OmniPDR klasöründe şu komutu çalıştırın (veya bana haber verin):
+
+python scripts/process_yokatlas_html.py
+
+Bu işlem, kaydettiğiniz HTML dosyalarını tarayıp "data/yokatlas_full.json" veritabanını oluşturacaktır.

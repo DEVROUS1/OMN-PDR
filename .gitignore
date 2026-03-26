@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.streamlit/
+data/backups/
+OmniPDR_Backup_*.zip
+OmniPDR_Guncel_Yedek.zip
+.gemini/

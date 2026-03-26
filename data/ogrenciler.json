@@ -1,0 +1,98 @@
+{
+  "ogrenciler": [
+    {
+      "ogrenci_id": "ac1eb231-7f4",
+      "ad": "Kaan",
+      "hedef_bolum": "Rehberlik ve Psikolojik Danışmanlık",
+      "sinav_turu": "YKS",
+      "hedef_net": 90.0,
+      "obp": 0.0,
+      "hedef_puan_turu": "SAY",
+      "hedef_siralama": 99110,
+      "telefon": "",
+      "email": "",
+      "veli_adi": "",
+      "veli_tel": "",
+      "okul": "",
+      "sinif": "",
+      "hedef_uni": "ÇANAKKALE ONSEKİZ MART ÜNİVERSİTESİ",
+      "hedef_taban_puan": 360.7720031738281,
+      "hedef_siralama_yok": 99110,
+      "kayit_tarihi": "2026-02-18",
+      "deneme_kayitlari": [
+        {
+          "tarih": "2026-02-18",
+          "netleri": {
+            "Türkçe": 0.0,
+            "Matematik": 0.0,
+            "Fizik": 0.0,
+            "Kimya": 0.0,
+            "Biyoloji": 0.0,
+            "Tarih": 0.0,
+            "Coğrafya": 0.0,
+            "Felsefe": 0.0,
+            "Din": 0.0,
+            "Yabancı Dil": 0.0
+          },
+          "calisma_saati": 15.5,
+          "stres_puani": 5,
+          "uyku_saati": 8.0,
+          "notlar": ""
+        },
+        {
+          "tarih": "2026-02-19",
+          "netleri": {
+            "Türkçe": 25.0,
+            "Temel Matematik": 1.0,
+            "Tarih": 2.0,
+            "Coğrafya": 4.0,
+            "Felsefe": 2.0,
+            "Din Kültürü": 4.0,
+            "Fizik": 5.0,
+            "Kimya": 4.0,
+            "Biyoloji": 3.0
+          },
+          "calisma_saati": 35.0,
+          "stres_puani": 6,
+          "uyku_saati": 8.0,
+          "notlar": ""
+        },
+        {
+          "tarih": "2026-02-19",
+          "netleri": {
+            "Türkçe": 25.0,
+            "Temel Matematik": 1.0,
+            "Tarih": 2.0,
+            "Coğrafya": 4.0,
+            "Felsefe": 2.0,
+            "Din Kültürü": 4.0,
+            "Fizik": 5.0,
+            "Kimya": 4.0,
+            "Biyoloji": 3.0
+          },
+          "calisma_saati": 35.0,
+          "stres_puani": 6,
+          "uyku_saati": 8.0,
+          "notlar": ""
+        }
+      ],
+      "hata_kayitlari": [],
+      "gorusme_notlari": [],
+      "gorevler": [
+        {
+          "id": "7746f6da",
+          "bashik": "PARAGRAF 210 SORU",
+          "hedef_tarih": "2026-03-31",
+          "tamamlandi_mi": true,
+          "olusturulma": "2026-03-24"
+        }
+      ],
+      "konu_ilerlemeleri": {
+        "Türkçe": {
+          "Sözcükte Anlam": 100.0
+        }
+      },
+      "test_sonuclari": {}
+    }
+  ]
+}

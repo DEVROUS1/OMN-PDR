@@ -1,0 +1,71 @@
+
+================================================================================
+                           OmniPDR - KULLANIM KILAVUZU
+================================================================================
+
+Bu uygulama; Puan Hesaplama, Konu Takibi ve Soru Dağılımı analizleri yapabileceğiniz
+profesyonel bir PDR platformudur.
+
+--------------------------------------------------------------------------------
+1. UYGULAMAYI BAŞLATMA (BİLGİSAYAR)
+--------------------------------------------------------------------------------
+Masaüstünüzdeki veya klasördeki "baslat.bat" dosyasına çift tıklayın.
+- Kısa bir süre bekleyin.
+- Siyah bir ekran (Terminal) açılacak ve ardından uygulama penceresi açılacaktır.
+- Uygulama, sanki bir masaüstü programıymış gibi özel bir pencerede çalışır.
+
+--------------------------------------------------------------------------------
+2. MOBİL ERİŞİM (TELEFON VE TABLET)
+--------------------------------------------------------------------------------
+Uygulamayı bilgisayarınızda açıkken telefonunuzdan kullanabilirsiniz:
+1. Bilgisayarınız ve Telefonunuzun AYNI Wi-Fi ağına bağlı olduğundan emin olun.
+2. "baslat.bat" dosyasını çalıştırdığınızda açılan SİYAH EKRANA bakın.
+3. Orada size bir adres verilecektir. Örnek: "http://192.168.1.35:8501"
+4. Telefonunuzun tarayıcısını (Chrome, Safari vb.) açın ve bu adresi yazın.
+5. Artık uygulamayı telefondan da yönetebilirsiniz!
+
+NOT: Bilgisayardaki siyah ekranı kapatırsanız, telefon erişimi de kesilir.
+
+--------------------------------------------------------------------------------
+3. ÇEVRİMDIŞI (İNTERNETSİZ) ÇALIŞMA
+--------------------------------------------------------------------------------
+- Uygulama tamamen internetsiz çalışabilir.
+- Öğrenci kayıtları, netler ve deneme verileri bilgisayarınızda ("data" klasörü içinde)
+  saklanır.
+- İnternetiniz kesilse bile çalışmaya, veri girmeye devam edebilirsiniz.
+- Uygulamayı kapatıp açtığınızda verileriniz kaybolmaz.
+
+--------------------------------------------------------------------------------
+4. UZAKTAN ERİŞİM (FARKLI AĞLARDAN)
+--------------------------------------------------------------------------------
+Eğer evde değilseniz ve mobil veri ile bağlanmak istiyorsanız:
+1. "baslat.bat" çalıştırıldığında arka planda "OmniPDR Remote Tunnel" penceresi açılır.
+2. Bu pencere size özel bir internet adresi (Örn: https://xyz.ngrok-free.app) verir.
+3. Bu adresi kullanarak dünyanın her yerinden uygulamanıza erişebilirsiniz.
+
+ÖNEMLİ: Bu özellik için ücretsiz bir Ngrok hesabı ve AuthToken gerekebilir.
+(İlk kullanımda terminal size ne yapmanız gerektiğini söyleyecektir.)
+
+--------------------------------------------------------------------------------
+5. VERİLERİ GÜNCELLEME (SYNC)
+--------------------------------------------------------------------------------
+Uygulama, Kitapsec.com sitesinden en güncel (2025-2026) konu soru dağılımlarını kullanır.
+Yeni veriler yayınlandığında bunları sisteme çekmek için:
+
+1. Bilgisayarınızın internete bağlı olduğundan emin olun.
+2. Uygulama menüsünde (Sol tarafta) en alta inin.
+3. "🔄 Verileri İnternetten Güncelle" butonuna basın.
+4. "Veriler başarıyla güncellendi" yazısını görünce işlem tamamdır.
+
+Bu işlemi sadece yeni sınav müfredatı açıklandığında veya dönem başlarında yapmanız yeterlidir.
+Normal kullanımda buna gerek yoktur.
+
+--------------------------------------------------------------------------------
+SORUN GİDERME
+--------------------------------------------------------------------------------
+- Uygulama açılmıyorsa: "baslat.bat" dosyasını yönetici olarak çalıştırmayı deneyin.
+- Telefondan bağlanamıyorsanız: Windows Güvenlik Duvarı'nın (Firewall) Python'a izin
+  verdiğinden emin olun veya "Özel Ağ" olarak işaretleyin.
+
+İyi Çalışmalar!
+OmniPDR Ekibi
